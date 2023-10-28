@@ -2,9 +2,7 @@ name: CI
 
 on:
   push:
-  pull_request:
-  schedule:
-    - cron: "0 6 * * 1" # Every monday 6 AM
+  - master
 
 jobs:
   test:
